@@ -38,3 +38,6 @@ Use this skill when the question is “which integration approach should we use?
 - pair with `n8n-credentials-security` for auth tradeoffs
 - pair with `n8n-community-node-author` if a custom node becomes justified
 
+## Deep references
+
+- connector decision matrix: [references/integration-decision-matrix.md](references/integration-decision-matrix.md)

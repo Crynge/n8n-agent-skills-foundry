@@ -44,3 +44,6 @@ Use this skill when the hard part is not the workflow shape, but the exact node 
 - pair with `n8n-ai-builder` for agent clusters
 - pair with `n8n-credentials-security` when auth setup is involved
 
+## Deep references
+
+- hidden parameter and dependency patterns: [references/config-dependencies.md](references/config-dependencies.md)

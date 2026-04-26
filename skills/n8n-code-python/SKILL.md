@@ -42,3 +42,6 @@ Use this skill only when Python is specifically requested or genuinely improves 
 - mixing per-item and batch semantics
 - losing linkage expectations downstream
 
+## Deep references
+
+- Python environment and limitation notes: [references/python-limits.md](references/python-limits.md)

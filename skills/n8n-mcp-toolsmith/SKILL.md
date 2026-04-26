@@ -51,3 +51,6 @@ Use this skill as the first hop before any n8n MCP interaction.
 - the workflow is changed surgically instead of rebuilt blindly
 - the assistant explains why a node or template was chosen
 
+## Deep references
+
+- MCP surfaces and operational notes: [references/mcp-surfaces.md](references/mcp-surfaces.md)

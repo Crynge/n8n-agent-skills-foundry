@@ -21,6 +21,7 @@ def load_skill(skill_dir: Path) -> dict[str, object]:
         "name": name,
         "description": description,
         "references": sorted(str(path.relative_to(skill_dir)) for path in skill_dir.rglob("*.md") if path.name != "SKILL.md"),
+        "reference_count": len(list((skill_dir / "references").glob("*.md"))),
     }
 
 
@@ -33,4 +34,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

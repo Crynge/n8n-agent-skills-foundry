@@ -36,3 +36,6 @@ Use this skill when the workflow’s challenge is how data moves, splits, rejoin
 - side effects late
 - reconsolidation before reporting or storage
 
+## Deep references
+
+- item cardinality and merge patterns: [references/cardinality-and-merge.md](references/cardinality-and-merge.md)

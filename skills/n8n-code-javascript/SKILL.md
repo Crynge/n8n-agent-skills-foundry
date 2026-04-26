@@ -43,3 +43,6 @@ Use this skill for JavaScript in Code nodes.
 - embedding large business-rule engines that deserve a service layer
 - hiding credentials in code
 
+## Deep references
+
+- JavaScript Code node patterns: [references/code-node-patterns.md](references/code-node-patterns.md)

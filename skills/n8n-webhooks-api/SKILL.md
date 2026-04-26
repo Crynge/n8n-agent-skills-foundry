@@ -41,3 +41,6 @@ Use this skill for workflows that ingest or call APIs.
 - pair with `n8n-node-configurator` for exact node settings
 - pair with `n8n-credentials-security` for auth posture
 
+## Deep references
+
+- boundary and auth patterns: [references/api-boundary-patterns.md](references/api-boundary-patterns.md)

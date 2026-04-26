@@ -15,6 +15,7 @@ def main() -> int:
     failures: list[str] = []
     for skill_dir in sorted(p for p in SKILLS_DIR.iterdir() if p.is_dir()):
         skill_file = skill_dir / "SKILL.md"
+        references_dir = skill_dir / "references"
         if not skill_file.exists():
             failures.append(f"{skill_dir.name}: missing SKILL.md")
             continue
@@ -32,14 +33,17 @@ def main() -> int:
             failures.append(f"{skill_dir.name}: missing Quick workflow section")
         if len(text.splitlines()) < 20:
             failures.append(f"{skill_dir.name}: skill too short to be operational")
+        if not references_dir.exists():
+            failures.append(f"{skill_dir.name}: missing references directory")
+        elif not list(references_dir.glob("*.md")):
+            failures.append(f"{skill_dir.name}: missing markdown references")
     if failures:
         for failure in failures:
             print(f"FAIL: {failure}")
         return 1
-    print(f"Validated {len(list(SKILLS_DIR.iterdir()))} skills.")
+    print(f"Validated {len(list(SKILLS_DIR.iterdir()))} skills with references.")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

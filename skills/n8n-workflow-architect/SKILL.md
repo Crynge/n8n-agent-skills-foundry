@@ -49,3 +49,7 @@ Use this skill before building any non-trivial workflow.
 - pair with `n8n-validation-repair` once the topology exists
 - pair with `n8n-source-control-release` before promotion
 
+## Deep references
+
+- topology selection patterns: [references/topology-patterns.md](references/topology-patterns.md)
+

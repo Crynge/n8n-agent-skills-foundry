@@ -19,6 +19,8 @@ def main() -> int:
         "docs/audit-reference-repo.md",
         "docs/latest-n8n-surface.md",
         "docs/compatibility-matrix.md",
+        "docs/skill-coverage-matrix.md",
+        "docs/hyper-technical-runbooks.md",
         "adapters/cursor/AGENTS.md",
         "adapters/cursor/.cursor/rules/01-n8n-routing.mdc",
         "data/integration-catalog.json",
@@ -32,4 +34,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

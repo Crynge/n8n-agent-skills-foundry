@@ -48,7 +48,30 @@
       "integrations": ["AI Transform", "Data Table", "Evaluation", "Evaluation Trigger", "Guardrails", "MCP Client", "MCP Server Trigger", "Execution Data"],
       "auth_patterns": ["none", "workspace_internal"],
       "recommended_skills": ["n8n-ai-builder", "n8n-evals-guardrails", "n8n-observability-debug"]
+    },
+    {
+      "category": "trigger_and_intake",
+      "integrations": ["Webhook", "Schedule Trigger", "Chat Trigger", "Form Trigger", "Local File Trigger"],
+      "auth_patterns": ["none", "signature", "basic_auth", "oauth2"],
+      "recommended_skills": ["n8n-triggers-scheduling", "n8n-webhooks-api", "n8n-forms-chat-ux"]
+    },
+    {
+      "category": "data_and_storage",
+      "integrations": ["Postgres", "MySQL", "MongoDB", "Data Table", "Google Sheets", "Airtable"],
+      "auth_patterns": ["connection_string", "oauth2", "api_key"],
+      "recommended_skills": ["n8n-databases-sql", "n8n-data-tables", "n8n-data-flow-ops"]
+    },
+    {
+      "category": "files_and_documents",
+      "integrations": ["Google Drive", "S3", "Dropbox", "Read/Write Files from Disk", "Extract From File"],
+      "auth_patterns": ["oauth2", "access_key_secret", "filesystem"],
+      "recommended_skills": ["n8n-files-binary", "n8n-webhooks-api", "n8n-credentials-security"]
+    },
+    {
+      "category": "platform_and_governance",
+      "integrations": ["Source control", "External secrets", "Insights", "Log streaming", "Workflow history"],
+      "auth_patterns": ["project_role", "vault_provider", "workspace_internal"],
+      "recommended_skills": ["n8n-enterprise-admin", "n8n-source-control-release", "n8n-observability-debug"]
     }
   ]
 }
-

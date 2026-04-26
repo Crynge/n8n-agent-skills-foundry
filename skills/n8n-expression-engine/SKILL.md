@@ -47,3 +47,6 @@ Move to `n8n-code-javascript` when:
 
 - the transform needs loops, reducers, or complex object reconstruction
 
+## Deep references
+
+- expression patterns and pitfalls: [references/expression-patterns.md](references/expression-patterns.md)

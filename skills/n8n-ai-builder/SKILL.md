@@ -45,3 +45,6 @@ Use this skill for modern AI workflows in n8n.
 - no memory truncation or cleanup plan
 - unsafe tool calls without approval boundaries
 
+## Deep references
+
+- AI patterns and node coverage: [references/ai-patterns.md](references/ai-patterns.md)

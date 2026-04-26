@@ -34,3 +34,6 @@ For verified community nodes, official docs state that from May 1, 2026 publishi
 - tests and examples
 - provenance-aware release workflow
 
+## Deep references
+
+- verification and publishing pipeline: [references/verification-pipeline.md](references/verification-pipeline.md)

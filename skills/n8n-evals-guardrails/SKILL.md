@@ -35,3 +35,6 @@ Use this skill when an AI workflow needs to be trustworthy, not merely impressiv
 - pair with `n8n-ai-builder` for overall design
 - pair with `n8n-observability-debug` for execution-level debugging
 
+## Deep references
+
+- evaluation design notes: [references/eval-design.md](references/eval-design.md)

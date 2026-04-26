@@ -36,3 +36,6 @@ Use this skill when the workflow passed construction but fails under real load o
 - pair with `n8n-validation-repair` for schema or topology issues
 - pair with `n8n-source-control-release` for environment-specific divergence
 
+## Deep references
+
+- incident taxonomy and instrumentation: [references/incident-taxonomy.md](references/incident-taxonomy.md)

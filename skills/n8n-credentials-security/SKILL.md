@@ -38,3 +38,6 @@ Use this skill whenever a workflow touches authentication, sensitive data, or ex
 - promoting workflows across environments without secret remapping
 - leaking secrets through execution logs or AI context
 
+## Deep references
+
+- secrets and auth patterns: [references/secrets-and-auth.md](references/secrets-and-auth.md)

@@ -19,5 +19,5 @@ def test_build_catalog_creates_skills_json() -> None:
     assert result.returncode == 0, result.stdout + result.stderr
     payload = json.loads((ROOT / "catalog" / "skills.generated.json").read_text(encoding="utf-8"))
     assert "skills" in payload
-    assert len(payload["skills"]) >= 12
-
+    assert len(payload["skills"]) >= 25
+    assert all(skill["reference_count"] >= 1 for skill in payload["skills"])

@@ -48,3 +48,7 @@ Use this skill when a workflow is broken, suspicious, or inconsistent across env
 - move to `n8n-observability-debug` if the schema is clean but executions diverge
 - move to `n8n-source-control-release` if the issue appears only after promotion
 
+## Deep references
+
+- validation loop and repair sequencing: [references/repair-loop.md](references/repair-loop.md)
+

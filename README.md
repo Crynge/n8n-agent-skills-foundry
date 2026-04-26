@@ -15,6 +15,7 @@ This repository is a broader, more operational follow-up to [czlonkowski/n8n-ski
 The reference repo is useful, but it is intentionally Claude-first and compact. This repo is designed for teams that want:
 
 - more than seven skills
+- deep reference packs behind each skill
 - more than one assistant runtime
 - deeper AI workflow coverage
 - better operational guidance
@@ -33,7 +34,7 @@ The audit is documented in [docs/audit-reference-repo.md](./docs/audit-reference
 
 ## Skill Packs
 
-This repository ships 16 canonical skills:
+This repository ships 27 canonical skills:
 
 1. `n8n-mcp-toolsmith`
 2. `n8n-expression-engine`
@@ -51,6 +52,19 @@ This repository ships 16 canonical skills:
 14. `n8n-source-control-release`
 15. `n8n-community-node-author`
 16. `n8n-integration-selector`
+17. `n8n-triggers-scheduling`
+18. `n8n-databases-sql`
+19. `n8n-files-binary`
+20. `n8n-subworkflow-orchestration`
+21. `n8n-queue-scale`
+22. `n8n-enterprise-admin`
+23. `n8n-forms-chat-ux`
+24. `n8n-testing-fixtures`
+25. `n8n-data-tables`
+26. `n8n-version-migration`
+27. `n8n-error-handling-retries`
+
+Each skill now ships with a `references/` pack for deeper operational and technical guidance.
 
 ## Platform Adapters
 
@@ -59,6 +73,8 @@ This repository ships 16 canonical skills:
 - [Qwen Code](./docs/installation/qwen-code.md)
 - [MiniMax](./docs/installation/minimax.md)
 - [Compatibility Matrix](./docs/compatibility-matrix.md)
+- [Skill Coverage Matrix](./docs/skill-coverage-matrix.md)
+- [Hyper-Technical Runbooks](./docs/hyper-technical-runbooks.md)
 
 The canonical skill content lives under `skills/`. Platform adapter folders translate that content into the conventions of each environment.
 

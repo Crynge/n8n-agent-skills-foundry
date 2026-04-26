@@ -37,3 +37,6 @@ Use this skill when workflows move from local editing into shared or production 
 - promoting without environment-specific credential review
 - ignoring version naming and change traceability
 
+## Deep references
+
+- release gates and promotion notes: [references/release-gates.md](references/release-gates.md)
