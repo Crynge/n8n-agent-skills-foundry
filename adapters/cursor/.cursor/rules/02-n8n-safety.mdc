@@ -1,0 +1,15 @@
+---
+description: Safety and production rules for n8n work
+globs:
+alwaysApply: false
+---
+
+When changing n8n workflows:
+
+- separate draft/editor success from published/production success
+- identify credentials and side effects before editing
+- validate node configs before workflow-level validation
+- call out loop, merge, dedupe, and item-linking risks explicitly
+- for AI workflows, require at least one evaluation path and one fallback path
+- for release work, mention source control, environment promotion, and rollback posture
+

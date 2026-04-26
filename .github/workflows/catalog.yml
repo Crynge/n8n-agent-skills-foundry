@@ -1,0 +1,25 @@
+name: Catalog
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "skills/**"
+      - "scripts/build_catalog.py"
+
+jobs:
+  build-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Build generated catalog
+        run: python scripts/build_catalog.py
+      - name: Upload catalog artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: skills-catalog
+          path: catalog/skills.generated.json
+

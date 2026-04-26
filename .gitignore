@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.pytest_cache/
+catalog/skills.generated.json
+dist/
+build/
+*.pyc
+

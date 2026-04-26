@@ -1,0 +1,28 @@
+---
+description: Route n8n tasks to the correct foundry skills
+globs:
+alwaysApply: false
+---
+
+When a task involves n8n workflows, nodes, automations, MCP, community nodes, Code nodes, AI chains, or deployment:
+
+1. Identify the primary problem family.
+2. Apply the matching foundry skill names explicitly in your reasoning.
+3. Prefer this routing:
+   - MCP tools or node discovery: `n8n-mcp-toolsmith`
+   - expressions: `n8n-expression-engine`
+   - topology and orchestration: `n8n-workflow-architect`
+   - validation and repair: `n8n-validation-repair`
+   - node parameter setup: `n8n-node-configurator`
+   - JS Code node: `n8n-code-javascript`
+   - Python Code node: `n8n-code-python`
+   - webhooks, APIs, auth: `n8n-webhooks-api`
+   - loops, merge, item linking, transformations: `n8n-data-flow-ops`
+   - AI agents, tools, memory, RAG: `n8n-ai-builder`
+   - evals, approval gates, safe tool use: `n8n-evals-guardrails`
+   - credentials and secrets: `n8n-credentials-security`
+   - executions, drift, observability: `n8n-observability-debug`
+   - git, environments, promotion, release: `n8n-source-control-release`
+   - custom or verified community nodes: `n8n-community-node-author`
+   - built-in vs HTTP selection: `n8n-integration-selector`
+

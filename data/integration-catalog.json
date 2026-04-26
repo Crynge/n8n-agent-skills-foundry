@@ -1,0 +1,54 @@
+{
+  "updated_at": "2026-04-27",
+  "families": [
+    {
+      "category": "communication",
+      "integrations": ["Slack", "Discord", "Telegram", "Email", "Microsoft Teams"],
+      "auth_patterns": ["oauth2", "api_key", "smtp_imap"],
+      "recommended_skills": ["n8n-integration-selector", "n8n-webhooks-api", "n8n-node-configurator"]
+    },
+    {
+      "category": "productivity",
+      "integrations": ["Google Sheets", "Google Drive", "Notion", "Airtable", "ClickUp"],
+      "auth_patterns": ["oauth2", "service_account", "api_key"],
+      "recommended_skills": ["n8n-integration-selector", "n8n-data-flow-ops", "n8n-credentials-security"]
+    },
+    {
+      "category": "crm_sales",
+      "integrations": ["HubSpot", "Salesforce", "Pipedrive", "Apollo", "Close"],
+      "auth_patterns": ["oauth2", "api_key", "custom_header"],
+      "recommended_skills": ["n8n-integration-selector", "n8n-webhooks-api", "n8n-workflow-architect"]
+    },
+    {
+      "category": "developer_ops",
+      "integrations": ["GitHub", "GitLab", "Jira", "Linear", "PagerDuty"],
+      "auth_patterns": ["oauth2", "pat", "basic_auth"],
+      "recommended_skills": ["n8n-integration-selector", "n8n-source-control-release", "n8n-observability-debug"]
+    },
+    {
+      "category": "ai_llm",
+      "integrations": ["OpenAI", "Anthropic", "Google Gemini", "Mistral", "Groq"],
+      "auth_patterns": ["api_key"],
+      "recommended_skills": ["n8n-ai-builder", "n8n-evals-guardrails", "n8n-credentials-security"]
+    },
+    {
+      "category": "vector_and_memory",
+      "integrations": ["Pinecone", "Qdrant", "Weaviate", "Redis Chat Memory", "Postgres Chat Memory"],
+      "auth_patterns": ["api_key", "connection_string"],
+      "recommended_skills": ["n8n-ai-builder", "n8n-data-flow-ops", "n8n-credentials-security"]
+    },
+    {
+      "category": "storage_and_files",
+      "integrations": ["S3", "Google Drive", "Dropbox", "FTP", "Read/Write Files from Disk"],
+      "auth_patterns": ["access_key_secret", "oauth2", "filesystem"],
+      "recommended_skills": ["n8n-data-flow-ops", "n8n-webhooks-api", "n8n-credentials-security"]
+    },
+    {
+      "category": "latest_core_surface",
+      "integrations": ["AI Transform", "Data Table", "Evaluation", "Evaluation Trigger", "Guardrails", "MCP Client", "MCP Server Trigger", "Execution Data"],
+      "auth_patterns": ["none", "workspace_internal"],
+      "recommended_skills": ["n8n-ai-builder", "n8n-evals-guardrails", "n8n-observability-debug"]
+    }
+  ]
+}
+
