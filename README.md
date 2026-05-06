@@ -1,5 +1,17 @@
 # n8n Agent Skills Foundry
 
+<!-- portfolio-seo:start -->
+![Stars](https://img.shields.io/github/stars/Crynge/n8n-agent-skills-foundry?style=flat-square) ![License](https://img.shields.io/github/license/Crynge/n8n-agent-skills-foundry?style=flat-square) ![Status](https://img.shields.io/badge/status-active-blue?style=flat-square)
+
+![Social Preview](docs/social-preview.png)
+
+> Advanced n8n skills and workflow references for Claude Code, Cursor, Qwen Code, and MiniMax with broad platform coverage.
+
+**GitHub Search Keywords:** n8n skills, workflow automation, claude code n8n, cursor n8n, qwen code n8n, minimax n8n, automation patterns
+
+<!-- portfolio-seo:end -->
+
+
 Advanced n8n skill packs and platform adapters for **Claude Code**, **Cursor**, **Qwen Code**, and **MiniMax**.
 
 This repository is a broader, more operational follow-up to [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills). It keeps the strong foundations of expression syntax, MCP tool usage, workflow patterns, validation, and Code node guidance, then expands into:
